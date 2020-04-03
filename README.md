@@ -58,14 +58,14 @@
 
 ### COUNTER DOWN active.js
 
-<pre><code>
+```
     $('[data-countdown]').each(function() {
         var $this = $(this), finalDate = $(this).data('countdown');
             $this.countdown(finalDate, function(event) {
             $this.html(event.strftime('<div class="countdown-body countdown-day"> <h2 class="countdown-count">%-D</h2> <h5>Days</h5></div><div class="countdown-body countdown-hour"> <h2 class="countdown-count">%-H</h2> <h5>Hour</h5></div><div class="countdown-body countdown-minutes"> <h2 class="countdown-count">%M</h2> <h5>Min</h5></div><div class="countdown-body countdown-seconds"> <h2 class="countdown-count">%S</h2> <h5>Sec</h5></div>'));
         });
     });
-</code></pre>  
+```
 
 
 ### Ask Any Question or if you need help contact me 24/7 we are ready support team.
