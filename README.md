@@ -47,8 +47,8 @@
             var scrollPosition = Math.round(scrollPos + (winHeight / 1.2));
             return scrollPosition;
         }
-        var elemOffset = $('.odometer').offset().top;
-        if (elemOffset < winScrollPosition()) {
+        var elemOffset = $('.odometer').offset();
+        if (elemOffset.top < winScrollPosition()) {
             $('.odometer').each(function () {
                 $(this).html($(this).data('count-to'));
             });
